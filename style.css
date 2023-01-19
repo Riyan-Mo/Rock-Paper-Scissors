@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.options>button {
+  font-size: 60px;
+  padding: 20px;
+  background-color: cornflowerblue;
+}
+
+.options>button:active {
+  background-color: rgb(8, 77, 206);
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.instructions {
+  font-size: 20px;
+}
+
+#round {
+  font-size: 40px;
+}
+
+#score {
+  font-size: 20px;
+}
+
+#resetBtn {
+  padding: 10px 20px;
+  background-color: Red;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#resetBtn:active {
+  background-color: rgba(255, 0, 0, 0.9);
+}
