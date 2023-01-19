@@ -1,2 +1,2 @@
 # projects-odin
-Contains projects from the odin project
+Contains rock-paper-scissor project from the odin project
